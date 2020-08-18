@@ -1,2 +1,2 @@
-docker run --gpus all -it -p 8890:8890 -p 6666:6666 -p 1001:1001 -e LC_ALL=C.UTF-8 -v ~/:/workspace --shm-size 16G jhnlee/korsum:latest
+docker run --gpus all -it -d -p 8890:8890 -p 6666:6666 -p 1001:1001 -e LC_ALL=C.UTF-8 -v ~/:/workspace --shm-size 16G jhnlee/korsum:latest
 

@@ -1,6 +1,6 @@
 docker run --gpus=all -it \
 -d -p 8888:8888 \
--v ~/:/workspace \
+-v /home/jhnlee/:/workspace \
 jhnlee/jupyterlab \
     jupyter lab \
     --no-browser \
