@@ -1,0 +1,2 @@
+docker run --gpus all -it -p 8890:8890 -v ~/hdd1:/workspace jhnlee/nc-xai
+

@@ -1,0 +1,2 @@
+docker run --gpus all -it -p 8891:8891 -v ~/hdd1:/workspace jhnlee/multimodal
+

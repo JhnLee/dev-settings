@@ -1,0 +1,1 @@
+docker run --gpus all -it -v ~/hdd1/:/workspace jhnlee/tensorflow:py27 /bin/bash
