@@ -1,10 +1,11 @@
-docker run --gpus=all -it \
--d -p 8888:8888 \
+docker run --rm --gpus=all -it \
+-d -p 1111:1111 -p 2222:2222 \
 -v /home/jhnlee/:/workspace \
 jhnlee/jupyterlab \
     jupyter lab \
     --no-browser \
     --allow-root \
+    --port 1111 \
     --notebook-dir='/workspace'
 
    

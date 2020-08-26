@@ -1,2 +1,2 @@
-docker run --gpus all -it -d -p 6007:6007 -e LC_ALL=C.UTF-8 -v ~/hdd1:/workspace --shm-size 16G jhnlee/transformers:latest
+docker run --rm --gpus all -it -d -p 6007:6007 -e LC_ALL=C.UTF-8 -v ~/hdd1:/workspace --shm-size 16G jhnlee/transformers:latest
 
